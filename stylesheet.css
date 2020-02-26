@@ -1,0 +1,291 @@
+body{
+	margin:0;
+}
+.head{
+	height:22%;
+	//border-bottom:10px solid purple;
+	background-color:black;
+	opacity:0.9;
+}
+
+.head .logo{
+	background-color:black;
+	color:darkgray;
+	line-height:150px;
+	width:20%;
+	padding-left:20px;
+	font-size:72px;
+	margin:0;
+	float:left;
+}
+.head img{
+	height:100px;
+	width:100px;
+	float:left;
+	padding-top:25px;
+}
+
+.head input,.con-box input,#pop input,#right input,#wrong input,#scorepop input{
+	float:right;
+	height:50px;
+	width:200px;
+	margin:50px;
+	border:none;
+	border-radius:25px;
+	color:black;
+	background-color:orange;
+	font-size:20px;
+	font-weight:bold;
+	//box-shadow:5px gray;
+	outline:none;
+}
+#pop,#right,#wrong,#scorepop{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background-color:black;
+	height:75%;
+	width:50%;
+	opacity:0.95;
+	z-index:10;
+	border-radius:50px;
+	color:darkgray;
+	padding:80px;
+	display:none;
+}
+#pop{
+	font-size:24px;
+}
+#right img,#wrong img,#scorepop img{
+	margin:0 200px;
+	height:400px;
+	width:400px;
+	border-radius:100px;
+}
+
+.con{
+	position:relative;
+	background-color:darkgray;
+}
+.con img{
+	opacity:0.2;
+	width:100%;
+	height:63%;
+}
+.con-box{
+	position:absolute;
+	right:0;
+	color:black;
+	z-index:10;
+	font-size:32px;
+	text-align:right;
+}
+.con-box h1{
+	margin:0;
+	margin-top:100px;
+	margin-right:20px;
+}
+.con-box h2{
+	margin:0;
+	margin-right:20px;
+}
+.con-box i{
+//color:orange;
+}
+.footer{
+	position:absolute;
+	bottom:0;
+	background-color:black;
+	opacity:0.9;
+	height:15%;
+	color:darkgray;
+	padding-left:25px;
+	
+	}
+.f{
+	float:left;
+
+}
+.foot-logo{
+	
+	font-size:42px;
+	padding-top:25px;
+	width:10%;
+}
+
+.about{
+	font-size:20px;
+	width:70%;
+	padding-top:25px;
+}
+
+.contact{
+	float:right;
+	font-size:20px;
+}
+
+
+
+/*page 2 starts here*/
+
+
+.head2{
+	//position:fixed;
+	height:10%;
+	//border-bottom:10px solid purple;
+	background-color:black;
+	opacity:0.9;
+	//z-index:10;
+
+}
+
+.head2 .logo{
+	background-color:black;
+	color:darkgray;
+	line-height:65px;
+	width:20%;
+	padding-left:20px;
+	font-size:42px;
+	margin:0;
+	float:left;
+}
+.head2 img{
+	height:65px;
+	width:60px;
+	float:left;
+}
+
+.head2 input{
+	float:right;
+	height:40px;
+	width:160px ;
+	margin:15px;
+	border:none;
+	border-radius:25px;
+	color:black;
+	background-color:orange;
+	font-size:20px;
+	font-weight:bold;
+	outline:none;
+}
+.whole{
+	background-color:orange;
+	height:75%;
+}
+.w{
+	float:left;
+}
+.navigator{
+	width:20%;
+	height:100%;
+}
+.navigator a{
+	color:black;
+	text-decoration:none;
+}
+.navigator ul{
+	padding:0;
+	margin:0;
+}
+.navigator li{
+	text-decoration:none;
+	display:block;
+	font-size:42px;
+	//padding:12px;
+	font-weight:bold;
+	height:50%;
+	//border-bottom:5px solid black;
+	text-align:left;
+	line-height:250px;
+	
+}
+
+.navigator li:hover{
+	background-color:black;
+	color:orange;
+	border-radius:0 200px 200px 0;
+	//border:none;
+}
+.con2{
+	position:relative;
+	width:80%;
+	height:100%;
+	background-color:darkgray;
+}
+.con-body p{
+	margin:0;
+	margin-left:40px;
+}
+.con-body{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	height:90%;
+	background-color:white;
+	width:90%;
+	font-size:20px;
+	padding-left:20px;
+	
+	border-radius:50px;
+}
+.con-body h1{
+	color:orange;
+}
+.con-body .nav-btn{
+	float:right;
+	margin:50px 20px 0 0;
+	background-color:black;
+	color:darkgray;
+	border-radius:10px;
+	border:none;
+	font-size:20px;
+	padding:5px 10px;
+	text-decoration:none;
+	outline:none;
+}
+
+.con-body .nav-btn a{
+	
+	color:darkgray;
+	display:block;
+	}
+.con-body .nav-btn:hover{
+	a.style.color:black;
+	background:orange;
+	color:black;
+}
+.con-body .nav-btn a:hover{
+		
+	color:black;
+	
+	}
+
+.page4img{
+	position:relative;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:700px;
+	height:80%;
+}
+.ans{
+	padding:10px;
+	width:45%;
+	border:none;
+	background-color:gray;
+	font-size:22px;
+	margin-bottom:5px;
+	border-radius:10px;
+	outline:none;
+}
+.ans:hover,.ans:focus{
+	color:orange;
+	background-color:black;
+}
+#score{
+	text-align:center;
+	font-size:25px;
+	color:orange;
+}
